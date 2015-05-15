@@ -13,5 +13,10 @@ For Mac OSX:
 notice: git status -- check the status of this repository
 		git diff -- check the changed place
 		git add and git commit as finishing a new update to be a key step!
-4. Go back the old verion:
-
+4. Show Log and Go back the old verion:
+	>git log	check the revised log for this repository
+	>git log --pretty=oneline	show the simple info
+	>git reset --hard HEAD^		go back the last version, HEAD is current version, HEAD~100 the previous 100 version
+	>git log 	update the log after reset, the latest version is current, i.e. HEAD^
+	>git reset --hard 365453 	go to version with first string "365453", pointer by SHA1
+	>git reflog 	Show the command of git history for check the version number
