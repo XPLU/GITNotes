@@ -23,3 +23,6 @@ notice: git status -- check the status of this repository
 5. Cancel the modification
 	>git checkout -- file.txt 	cancel the current modification and go to the latest comit version
 	>git reset HEAD file.txt 	cancel the input of git add file.txt before commit
+	git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”。
+	>rm file.txt	delete in the local, can go back from repository by git checkout -- file.txt
+	>git rm file.txt	delete file in the repository! can't go back!!
