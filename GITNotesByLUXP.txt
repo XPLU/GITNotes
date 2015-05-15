@@ -1,0 +1,14 @@
+For Mac OSX:
+1. setup
+	Download Xcode, -> command line tools, then ok for git command!
+2. Create a repository
+	> create a directory such as LUXP
+	> in LUXP, run: git init
+3. Add file and commit
+	> touch file.txt and right something in it
+	> git add file.txt, file1.txt...
+	> git commit -m "info for this change"
+	> git status 
+	> git diff, show the changes detail
+
+	
