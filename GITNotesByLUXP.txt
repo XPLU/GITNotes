@@ -20,3 +20,6 @@ notice: git status -- check the status of this repository
 	>git log 	update the log after reset, the latest version is current, i.e. HEAD^
 	>git reset --hard 365453 	go to version with first string "365453", pointer by SHA1
 	>git reflog 	Show the command of git history for check the version number
+5. Cancel the modification
+	>git checkout -- file.txt 	cancel the current modification and go to the latest comit version
+	>git reset HEAD file.txt 	cancel the input of git add file.txt before commit
