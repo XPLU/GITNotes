@@ -10,5 +10,8 @@ For Mac OSX:
 	> git commit -m "info for this change"
 	> git status 
 	> git diff, show the changes detail
+notice: git status -- check the status of this repository
+		git diff -- check the changed place
+		git add and git commit as finishing a new update to be a key step!
+4. Go back the old verion:
 
-	
